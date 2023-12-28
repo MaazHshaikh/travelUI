@@ -1,0 +1,351 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+/* font-family: 'Charm', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Poiret One', cursive; */
+#title {
+  background-image: url("bg3.jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: left;
+  padding-bottom: 84px;
+}
+
+#titleCR {
+  background-image: url("cr (2).jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: left;
+  padding-bottom: 84px;
+}
+#titleTP {
+  background-image: url("tp (8).jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: left;
+  padding-bottom: 84px;
+}
+
+#titleID {
+  background-image: url("id (2).jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: left;
+  padding-bottom: 84px;
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: Ubuntu;
+}
+
+.nav-item {
+  padding: 0 10px;
+  font-weight: 800;
+}
+.nav-item:hover {
+  text-decoration: underline;
+  color: #8f8f8f;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+/* Download Buttons */
+.button-download {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+span::before {
+  content: "Adventures";
+  animation: animate infinite 6s;
+}
+
+@keyframes animate {
+  0% {
+    content: "Adventures";
+  }
+  25% {
+    content: "Thrills";
+  }
+  50% {
+    content: "Escapes";
+  }
+  75% {
+    content: "Experiences";
+  }
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+/* -----------------------HEADINGS------------------------------------------- */
+.big-heading {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* ---------------------------------------------------------------------------- */
+@media (max-width: 990.4px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .carousel-inner {
+    padding-top: 200px;
+  }
+}
+
+/* ---------------------------FEATURES SECTION--------------------------- */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+.ft-container {
+  padding-bottom: 0px;
+}
+
+.icon {
+  color: #0a2647;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #0a2647;
+}
+
+/* ---------------Escape-------------- */
+
+#Escape {
+  background-color: #0a2647;
+  padding: 50px 0;
+  color: #fff;
+  padding-top: 500px;
+}
+
+@media (max-width: 767px) {
+  .escHeading {
+    padding-top: 250px;
+  }
+}
+
+.escHeading {
+  font-family: "Poiret One", cursive;
+  font-size: 80px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.escImg {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.e1 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.e2 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.e3 {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+/* ---------------NAV CARD-------------- */
+
+.card-img-top {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card {
+  margin-bottom: 70px;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: auto;
+  }
+}
+
+.navCard {
+  padding-top: 100px;
+}
+
+.nc {
+  margin: 3%;
+  position: relative;
+}
+
+.card-img-top:hover {
+  width: 105%;
+  height: 580px;
+}
+
+.txt {
+  position: absolute;
+  top: 17px;
+  left: 50px;
+  color: white;
+  text-shadow: 2px 2px #0a2647;
+}
+
+/* Car Rental Carousel */
+#testimonials {
+  background-color: #0a2647;
+  background-image: url("bg4.jpg");
+  color: #fff;
+  padding-top: 120px;
+}
+
+.testimonial-image {
+  width: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* ------------------PRESS----------------- */
+
+.cardImg {
+  width: 350px;
+  /* padding: 20px 20px 50px; */
+}
+
+/* ----------------PRICING----------------------- */
+
+.price-text {
+  color: #000;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.btn-custom {
+  color: #0a2647;
+  border-color: #0a2647;
+}
+
+.btn-custom:hover {
+  background-color: #0a2647;
+  border-color: #0a2647;
+}
+
+.btn-custom2 {
+  background-color: #0a2647;
+  color: #fff;
+  border-color: #0a2647;
+}
+
+.btn-custom2:hover {
+  background-color: #fff;
+  border-color: #0a2647;
+  color: #0a2647;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* ----------------------------Call to Action----------------- */
+#cta {
+  background-color: #0a2647;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: bold;
+
+  padding: 7% 15%;
+}
+
+/* --------------------------FOOTER----------------------- */
+.foot-section {
+  background-color: #fff;
+  text-align: center;
+  top: 40%;
+  font-size: 1.5rem;
+}
+
+.foot-icon {
+  padding: 1.5% 1.5% 3%;
+}
